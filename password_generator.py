@@ -8,4 +8,10 @@ def generate_password(length=12):
 
 
 if __name__ == "__main__":
-    print("Generated password:", generate_password())
+    try:
+        length = int(input("Password length: "))
+        if length < 4:
+            raise ValueError
+        print("Generated password:", generate_password(length))
+    except ValueError:
+        print("Please enter a number >= 4.")
