@@ -12,7 +12,7 @@ A clean collection of beginner Python projects focused on practical programming 
 | 💰 Expense Tracker | Data structures, calculations, formatting |
 | 🔐 Password Generator | `secrets`, strings, secure random generation |
 | 🎯 Number Guessing Game | Loops, conditions, exceptions |
-| 🧩 Python Project Starter | Functions, modules, clean entry point |
+| 📦 Inventory CLI | Dictionaries, CRUD-style data, calculations |
 
 ## Tech Stack
 
@@ -33,7 +33,7 @@ python contact_book.py
 python expense_tracker.py
 python password_generator.py
 python number_guessing.py
-python python_project_template.py
+python inventory_cli.py
 ```
 
 ## Learning Goal
