@@ -1,31 +1,30 @@
-# Beginner Python Projects
+# Junior Practice Projects
 
-A clean collection of beginner Python projects focused on practical programming fundamentals and junior-level development habits.
+A collection of practical projects built to strengthen programming fundamentals and junior developer skills.
 
 ## Projects
 
-| Project | Concepts |
-|---|---|
-| 🧮 Simple Calculator | Functions, arithmetic, validation |
-| ✅ To-Do List CLI | Lists, loops, CRUD-style operations |
-| 👥 Contact Book | Dictionaries, search, delete, user input |
-| 💰 Expense Tracker | Data structures, calculations, formatting |
-| 🔐 Password Generator | `secrets`, strings, secure random generation |
-| 🎯 Number Guessing Game | Loops, conditions, exceptions |
-| 📦 Inventory CLI | Dictionaries, CRUD-style data, calculations |
+| Project | Tech | Focus |
+|---|---|---|
+| 🧮 Simple Calculator | Python | Functions, validation |
+| ✅ To-Do List CLI | Python | CRUD-style operations |
+| 👥 Contact Book | Python | Dictionaries, search, data handling |
+| 💰 Expense Tracker | Python | Data structures, calculations |
+| 🔐 Password Generator | Python | Secure random generation |
+| 🎯 Number Guessing Game | Python | Logic, loops, exceptions |
+| 📦 Inventory CLI | Python | CRUD-style stock management |
+| 📋 Task Manager | JavaScript | Objects, arrays, functions, CRUD logic |
 
 ## Tech Stack
 
 - Python 3
+- JavaScript (ES6+)
 - Git & GitHub
 - CLI applications
 
-## Project Structure
-
-Each project is separated into its own Python file so it can be reviewed and executed independently.
-
 ## Run locally
 
+Python projects:
 ```bash
 python calculator.py
 python todo_list.py
@@ -36,6 +35,11 @@ python number_guessing.py
 python inventory_cli.py
 ```
 
-## Learning Goal
+JavaScript project:
+```bash
+node task_manager.js
+```
 
-These projects are part of my practice portfolio while strengthening Python fundamentals and preparing for larger applications with Flask, SQL and REST APIs.
+## Goal
+
+These projects are practice work focused on writing cleaner code, handling user data, implementing CRUD-style logic, and building a solid foundation for larger applications with Flask, SQL, REST APIs and JavaScript.
