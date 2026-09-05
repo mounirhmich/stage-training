@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaShop - Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <h1>NovaShop</h1>
+      <a class="cart-button" href="index.html">Back to Store</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="checkout-section" style="margin-top: 45px;">
+      <h2>Secure Checkout</h2>
+      <p style="margin: 10px 0 20px; color: #667085;">Demo checkout page for the mini e-commerce project.</p>
+      <form class="checkout-form" onsubmit="event.preventDefault(); document.getElementById('done').textContent='Order confirmed successfully.';">
+        <input type="text" placeholder="Full name" required>
+        <input type="email" placeholder="Email address" required>
+        <input type="text" placeholder="Delivery address" required>
+        <input type="text" inputmode="numeric" placeholder="Card number (demo)" required>
+        <button class="primary-button" type="submit">Confirm Order</button>
+      </form>
+      <p id="done" class="success-message"></p>
+    </section>
+  </main>
+</body>
+</html>
