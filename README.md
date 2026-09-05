@@ -14,11 +14,13 @@ A collection of practical projects built to strengthen programming fundamentals 
 | 🎯 Number Guessing Game | Python | Logic, loops, exceptions |
 | 📦 Inventory CLI | Python | CRUD-style stock management |
 | 📋 Task Manager | JavaScript | Objects, arrays, functions, CRUD logic |
+| 🌤️ Weather API | JavaScript | Fetch API, async/await, JSON, API integration |
 
 ## Tech Stack
 
 - Python 3
 - JavaScript (ES6+)
+- Fetch API / REST API integration
 - Git & GitHub
 - CLI applications
 
@@ -35,11 +37,12 @@ python number_guessing.py
 python inventory_cli.py
 ```
 
-JavaScript project:
+JavaScript projects:
 ```bash
 node task_manager.js
+node weather_app.js
 ```
 
 ## Goal
 
-These projects are practice work focused on writing cleaner code, handling user data, implementing CRUD-style logic, and building a solid foundation for larger applications with Flask, SQL, REST APIs and JavaScript.
+These projects are practice work focused on writing cleaner code, handling data, implementing CRUD-style logic, integrating APIs, and building a solid foundation for larger applications with Flask, SQL, REST APIs and JavaScript.
