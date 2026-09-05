@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaShop - Mini E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <h1>NovaShop</h1>
+      <button id="cartButton" class="cart-button">Cart (<span id="cartCount">0</span>)</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">Simple. Modern. Practical.</p>
+      <h2>Everyday products, one simple store.</h2>
+      <p>A small e-commerce demo built with vanilla JavaScript.</p>
+    </section>
+
+    <section class="toolbar">
+      <input id="searchInput" type="search" placeholder="Search products..." aria-label="Search products">
+      <select id="categoryFilter" aria-label="Filter by category">
+        <option value="all">All categories</option>
+        <option value="shoes">Shoes</option>
+        <option value="bags">Bags</option>
+        <option value="accessories">Accessories</option>
+      </select>
+    </section>
+
+    <section id="productGrid" class="product-grid"></section>
+
+    <section id="cartSection" class="cart-section hidden">
+      <div class="section-heading">
+        <h2>Your Cart</h2>
+        <button id="closeCart" class="text-button">Close</button>
+      </div>
+      <div id="cartItems"></div>
+      <div class="cart-summary">
+        <strong>Total: <span id="cartTotal">0.00</span> DH</strong>
+        <button id="checkoutButton" class="primary-button">Proceed to Checkout</button>
+      </div>
+    </section>
+
+    <section id="checkoutSection" class="checkout-section hidden">
+      <h2>Checkout</h2>
+      <form id="checkoutForm" class="checkout-form">
+        <input name="name" type="text" placeholder="Full name" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <input name="address" type="text" placeholder="Delivery address" required>
+        <button class="primary-button" type="submit">Place Order</button>
+      </form>
+      <p id="orderMessage" class="success-message"></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
