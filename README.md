@@ -1,23 +1,39 @@
 # Beginner Python Projects
 
-A collection of six small Python projects created to practice programming fundamentals and build a beginner portfolio.
+A clean collection of beginner Python projects focused on practical programming fundamentals.
 
 ## Projects
 
-1. **Simple Calculator** — functions, arithmetic operations and basic validation.
-2. **To-Do List CLI** — add, list and delete tasks.
-3. **Contact Book** — store, search, list and delete contacts.
-4. **Expense Tracker** — record expenses and calculate totals.
-5. **Password Generator** — generate random passwords with Python's `secrets` module.
-6. **Number Guessing Game** — practice loops, conditions and user input.
+| Project | Concepts |
+|---|---|
+| 🧮 Simple Calculator | Functions, arithmetic, validation |
+| ✅ To-Do List CLI | Lists, loops, CRUD-style operations |
+| 👥 Contact Book | Dictionaries, search, delete, user input |
+| 💰 Expense Tracker | Data structures, calculations, formatting |
+| 🔐 Password Generator | `secrets`, strings, secure random generation |
+| 🎯 Number Guessing Game | Loops, conditions, exceptions |
 
-## Skills practiced
-- Python basics
-- Functions
-- Lists and dictionaries
-- Loops and conditions
-- User input
-- Basic error handling
+## Tech Stack
 
-## Run
-Use Python 3 to run any `.py` file from the terminal.
+- Python 3
+- Git & GitHub
+- CLI applications
+
+## Project Structure
+
+Each project is kept as a separate Python file so it can be run and reviewed independently.
+
+## Run locally
+
+```bash
+python calculator.py
+python todo_list.py
+python contact_book.py
+python expense_tracker.py
+python password_generator.py
+python number_guessing.py
+```
+
+## Learning Goal
+
+These projects are part of my practice portfolio while building stronger foundations in Python before moving to larger applications with Flask, SQL and REST APIs.
