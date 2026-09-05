@@ -1,6 +1,6 @@
 # Beginner Python Projects
 
-A clean collection of beginner Python projects focused on practical programming fundamentals.
+A clean collection of beginner Python projects focused on practical programming fundamentals and junior-level development habits.
 
 ## Projects
 
@@ -12,6 +12,7 @@ A clean collection of beginner Python projects focused on practical programming 
 | 💰 Expense Tracker | Data structures, calculations, formatting |
 | 🔐 Password Generator | `secrets`, strings, secure random generation |
 | 🎯 Number Guessing Game | Loops, conditions, exceptions |
+| 🧩 Python Project Starter | Functions, modules, clean entry point |
 
 ## Tech Stack
 
@@ -21,7 +22,7 @@ A clean collection of beginner Python projects focused on practical programming 
 
 ## Project Structure
 
-Each project is kept as a separate Python file so it can be run and reviewed independently.
+Each project is separated into its own Python file so it can be reviewed and executed independently.
 
 ## Run locally
 
@@ -32,8 +33,9 @@ python contact_book.py
 python expense_tracker.py
 python password_generator.py
 python number_guessing.py
+python python_project_template.py
 ```
 
 ## Learning Goal
 
-These projects are part of my practice portfolio while building stronger foundations in Python before moving to larger applications with Flask, SQL and REST APIs.
+These projects are part of my practice portfolio while strengthening Python fundamentals and preparing for larger applications with Flask, SQL and REST APIs.
