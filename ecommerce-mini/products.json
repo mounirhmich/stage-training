@@ -1,0 +1,8 @@
+[
+  {"id":1,"name":"Urban Runner","category":"shoes","price":549},
+  {"id":2,"name":"Classic Sneaker","category":"shoes","price":699},
+  {"id":3,"name":"Daily Backpack","category":"bags","price":399},
+  {"id":4,"name":"Leather Crossbody","category":"bags","price":459},
+  {"id":5,"name":"Minimal Watch","category":"accessories","price":799},
+  {"id":6,"name":"Everyday Cap","category":"accessories","price":149}
+]
